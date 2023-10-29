@@ -79,10 +79,7 @@ public class AtmCardEntitySessionBean implements AtmCardEntitySessionBeanRemote,
         
         em.flush();
     }
-    
-    public void output(){
-        System.out.println("pls make this work");
-    }
+
     
     @Override
     public List<AtmCardEntity> retrieveAllAtmCard(){
